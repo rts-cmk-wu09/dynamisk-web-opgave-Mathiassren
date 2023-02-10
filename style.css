@@ -1,0 +1,6 @@
+/*Import here*/
+@import url(/atoms.css);
+@import url(/molecules.css);
+@import url(/organisms.css);
+@import url(/variables.css);
+@import url(/critical.css);
