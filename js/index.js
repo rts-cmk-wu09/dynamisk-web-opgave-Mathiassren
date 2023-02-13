@@ -1,36 +1,23 @@
-document.addEventListener("DOMContentLoaded", function() {
+let header = document.querySelector(".hero");
+header.innerHTML = `
+<div class="user"><img src="/assets/expand_less.png" alt="arrow-down"><img src="/assets/CL_Type-User.png" alt="user"></div>
+  <div class="herobox">
+    <h1 class="herobox__headline">${hero.headline}</h1>
+    <p class="herobox__copy">${hero.copy}</p>
+    <button>Explore</button>
+  </div>
+`;
 
-  // Create a div element to be the container of the section
-const section = document.createElement("div");
-section.style.backgroundColor = "white";
-section.style.width = "741px";
-section.style.height = "537px";
+const container = document.querySelector(".services");
 
-// Create an h1 element
-const header = document.createElement("h1");
-header.textContent = "Find out how we can save your time in Backpacking in Europe";
-
-// Create a p element
-const paragraph = document.createElement("p");
-paragraph.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac amet id eget scelerisque amet etiam in sit commodo. Pretium ut duis orci pulvinar pretium id consectetur. ";
-
-// Create a button element
-const button = document.createElement("button");
-button.textContent = "Explore";
-button.style.color = "white";
-button.style.fontSize = "18px";
-button.style.backgroundColor = "#F78065";
-button.style.border = "none"
-button.style.width = "250px"
-button.style.height = "65px"
-
-// Append the h1, p and button elements to the section
-section.appendChild(header);
-section.appendChild(paragraph);
-section.appendChild(button);
-
-// Finally, append the section to the body of the document
-document.body.appendChild(section);
-
-
-}) // DOMContentLoaded slut
+for (const service of services) {
+  const section = `
+    <div class="service">
+      <img src="${service.illustration}" alt="Service Illustration">
+      <h2>${service.headline}</h2>
+      <p>${service.text}</p>
+      <a href="#">${service.linktext}</a>
+    </div>
+  `;
+  container.innerHTML += section;
+}
