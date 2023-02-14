@@ -18,7 +18,32 @@
     color: white;
     font-weight: bold;
     margin: 29px 64px 0 64px;
+    cursor: pointer;
 }
 
+/*Facilities button*/
+.facilities__a-text {
+    color: #F78065;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.125rem;
+  }
 
+/*Sites button*/
+.sites__btn {
+    background-color: #F78065;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sites__btn-icon {
+   position: relative;
+   top: 5px;
+}
 
