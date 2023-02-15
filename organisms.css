@@ -1,127 +1,185 @@
 /*Header img*/
 .hero {
-    background-image: url(/assets/Rectangle\ 1.jpg);
-    height: 650px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+  background-image: url(/assets/Rectangle\ 1.jpg);
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
 
 }
 
 /*Services*/
 
 .services {
-    display: flex;
-    margin-top: 500px;
-    margin-left: 119px;
-    gap: 41px;
+  display: flex;
+  margin-top: 500px;
+  margin-left: 119px;
+  gap: 41px;
 
 }
 
 .service {
-    width: 386px;
+  width: 386px;
 }
 
 .service h2 {
-    color: black;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-top: 84px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 84px;
 }
 
 .service p {
-    color: black;
-    opacity: 50%;
-    font-size: 1rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  color: black;
+  opacity: 50%;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .services a {
-    text-decoration: none;
-    color: #F78065;
-    font-size: 1.125rem;
-    font-weight: bold;
+  text-decoration: none;
+  color: #F78065;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 /*Faclilities*/
 .facilities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 119px;
-  }
-
-  .facilities__icon {
-    margin-bottom: 64px;
-  }
-  
-  .facilities__headline {
-    display: block;
-    width: 100%;
-    text-align: left;
-    margin-top: 20px;  
-    margin-bottom: 204px;
-    margin-top: 253px;
-    font-size: 2.25rem;
-  }
-  
-  .facilities__option {
-    display: flex;
-    flex-direction: column;
-    width: calc(25% - 20px);
-    margin-bottom: 40px;
-    align-items: flex-start;
-  }
-
-  .facilities__option-headline {
-    text-align: left;
-  }
-
-  .facilities__option-text {
-    text-align: left;
-    height: 72px;
-    opacity: 50%;
-  }
-
-
-  /*Sites*/
-.sites__text-container {
-  width: 325px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 119px;
-  margin-right: 127px;
 }
 
-.sites__headline {
-  margin-bottom: 32px;
+.facilities__icon {
+  margin-bottom: 64px;
+}
+
+.facilities__headline {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;  
+  margin-bottom: 204px;
+  margin-top: 253px;
   font-size: 2.25rem;
 }
 
-.sites__text {
-  margin-bottom: 48px;
+.facilities__option {
+  display: flex;
+  flex-direction: column;
+  width: calc(25% - 20px);
+  margin-bottom: 40px;
+  align-items: flex-start;
 }
 
-  .sites {
-   display: flex;
-   width: 1240px;
-   margin-top: 263px;
-  }
-  
- .places__img {
-  width: 230px;
-  height: 418px;
- }
+.facilities__option-headline {
+  text-align: left;
+}
 
- .article-img {
-  display: flex;
- }
-
- .places {
-  display: flex;
-  gap: 49px;
- }
+.facilities__option-text {
+  text-align: left;
+  height: 72px;
+  opacity: 50%;
+}
 
 
+/*Sites*/
+.sites__text-container {
+width: 325px;
+margin-left: 119px;
+margin-right: 400px;
+}
 
+.sites__headline {
+margin-bottom: 32px;
+font-size: 2.25rem;
+}
+
+.sites__text {
+margin-bottom: 48px;
+}
+
+.sites {
+ display: flex;
+ width: 1240px;
+ margin-top: 263px;
+}
+
+.places__img {
+width: 230px;
+height: 418px;
+}
+
+.places__name {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+.places__city {
+font-size: 0.875rem;
+color: #3F3D56;
+margin-bottom: 8px;
+}
+
+.view__site {
+color: #F78065;
+font-size: 1.125rem;
+
+}
+
+.article-img {
+display: flex;
+}
+
+.places {
+display: flex;
+gap: 49px;
+}
+
+/*Our Advantages*/
+.advantages {
+display: flex;
+margin-top: 400px;
+}
+
+.advantages__option {
+width: 386px;
+margin: auto;
+}
+
+.advantages__icon {
+margin-bottom: 64px;
+}
+
+.advantages__option-text {
+margin-top: 24px;
+}
+/*footer*/
+.footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+background-color: #eee;
+}
+
+.headliner h2 {
+font-size: 1.5rem;
+}
+
+.headliner p {
+font-size: 3rem;
+}
+
+.footerflex {
+display: flex;
+gap: 125px;
+}
+ul {
+list-style: none;
+}
