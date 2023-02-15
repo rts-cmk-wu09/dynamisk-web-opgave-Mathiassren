@@ -1,0 +1,14 @@
+/*H1*/
+.herobox__headline {
+ width: 521px;
+ font-size: 2.438rem;
+ padding-left: 64px;
+ padding-top: 96px;
+}
+
+/*Paragraph*/
+.herobox__copy {
+    width: 515px;
+    padding: 29px 64px 0 64px;
+    font-size: 1.25rem;
+}

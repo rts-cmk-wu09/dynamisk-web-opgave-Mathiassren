@@ -34,22 +34,26 @@ let facilities = {
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/list-check.png",
             headline: "Choose the type of stop",
-            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping"
+            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping",
+            atag: "Show me more",
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/spellcheck.png",
             headline: "Describe your structure",
-            text: "Describe thee property, location and nearby attractions"
+            text: "Describe thee property, location and nearby attractions",
+            atag: "Show me more",
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Text-Frame-Add.png",
             headline: "Build your showcase",
-            text: "Add photos, videos and descriptions Define the price of each type of that make your propety truly"
+            text: "Add photos, videos and descriptions Define the price of each type of that make your propety truly",
+            atag: "Show me more",
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Calendar-Today.png",
             headline: "Prices and Availability",
-            text: "pitch and configure the availablity calendar."
+            text: "pitch and configure the availablity calendar.",
+            atag: "Show me more",
         },
     ]
 }
@@ -62,17 +66,20 @@ let sites = {
         {
             img: "https://dazzling-squirrel-77a63d.netlify.app/imgs/lucciano.png",
             name: "Lucciano",
-            city: "Rome"
+            city: "Rome",
+            viewsite: "View the site"
         },
         {
             img: "https://dazzling-squirrel-77a63d.netlify.app/imgs/cremonesi.png",
             name: "Cremonesi",
-            city: "Florence"
+            city: "Florence",
+            viewsite: "View the site",
         },
         {
             img: "https://dazzling-squirrel-77a63d.netlify.app/imgs/beneventi.png",
             name: "Beneventi",
-            city: "Venice"
+            city: "Venice",
+            viewsite: "View the site",
         },
     ]
 }
@@ -96,3 +103,42 @@ let advantages = [
 ]
 
 // Opret dit dataobjekt til footerens indhold herunder
+let footer = [
+        {
+            headline: "Easy Camper",
+            text: "When passion meets comfort."
+        },
+
+        {
+            headline: "Discover the Network",
+            linktext: "Where to shop",
+            linktext: "Tour Guided",
+            linktext: "Our tours",
+            linktext: "About us",       
+        },
+
+        {
+            headline: "Become a Manager",
+            linktext: "Joining your pairing",
+            linktext: "Offer your Service",
+            linktext: "Are you a guide?", 
+        },
+
+        {
+            headline: "Assistance",
+            linktext: "Support Center",
+            linktext: "FAQs",
+            linktext: "Cancallation Options", 
+            linktext: "Reliability and Sequrity",
+        },
+
+        {
+            text: "EasyCamper. All rights reserved.",
+            linktext: "About",
+            linktext: "Sitemap",
+            linktext: "Terms",
+            linktext: "Privacy Policy",
+            linktext: "Teams",
+        },
+
+]
