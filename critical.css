@@ -1,5 +1,95 @@
+/*Critical CSS: Critical CSS is the minimal amount of CSS that is needed to render the above-the-fold content of a website, used to improve website loading speed.*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Hero*/
+.herobox__headline {
+  width: 521px;
+  font-size: 2.438rem;
+  padding-left: 64px;
+  padding-top: 96px;
+}
+
+.herobox__copy {
+  width: 515px;
+  padding: 29px 64px 0 64px;
+  font-size: 1.25rem;
+}
+
+/*Services*/
+.service h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 84px;
+}
+
+.service p {
+  color: black;
+  opacity: 50%;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services a {
+  text-decoration: none;
+  color: #f78065;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+/*Facilities*/
+.facilities__option-headline {
+  text-align: left;
+}
+
+.facilities__option-text {
+  text-align: left;
+  height: 72px;
+  opacity: 50%;
+}
+
+/*Sites*/
+.sites__text-container {
+  width: 325px;
+  margin-left: 119px;
+  margin-right: 200px;
+}
+
+.sites__headline {
+  margin-bottom: 32px;
+  font-size: 2.25rem;
+}
+
+.sites__text {
+  margin-bottom: 48px;
+}
+
+.places__name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.view__site {
+  color: #f78065;
+  font-size: 1.125rem;
+}
+
+.view__site {
+  color: #f78065;
+  font-size: 1.125rem;
+}
+
+/*Footer*/
+.headliner h2 {
+  font-size: 1.5rem;
+}
+
+.headliner p {
+  font-size: 3rem;
 }

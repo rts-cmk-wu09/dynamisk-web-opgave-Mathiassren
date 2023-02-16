@@ -1,49 +1,70 @@
+/*Molecules: In Atomic CSS, "Molecules" refer to groups of Atoms that function together as a unit to form a more complex UI component.*/
+/*user*/
+.user {
+  width: 86px;
+  height: 53px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 1300px;
+}
+
+.user:nth-child(1) {
+  position: relative;
+  padding-top: 10px;
+}
+
+/*Hero*/
 .herobox {
-    width: 741px;
-    height: 537px;
-    background-color: rgb(255, 255, 255);
-    -webkit-box-shadow: 0px 4px 100px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 4px 100px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 4px 100px 0px rgba(0,0,0,0.1);
-    position: relative;
-    top: 384px;
-    left: 63px;
+  width: 741px;
+  height: 537px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 384px;
+  left: 63px;
 }
 
 .herobox button {
-    background-color: #F78065;
-    width: 250px;
-    height: 65px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    margin: 29px 64px 0 64px;
-    cursor: pointer;
+  background-color: #f78065;
+  width: 250px;
+  height: 65px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 29px 64px 0 64px;
+  cursor: pointer;
 }
 
 /*Facilities button*/
 .facilities__a-text {
-    color: #F78065;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1.125rem;
-  }
+  color: #f78065;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
 
 /*Sites button*/
 .sites__btn {
-    background-color: #F78065;
-    color: white;
-    border: none;
-    width: 250px;
-    height: 65px;
-    font-weight: bold;
-    font-size: 1.125rem;
-    text-align: center;
-    cursor: pointer;
+  background-color: #f78065;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 65px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 .sites__btn-icon {
-   position: relative;
-   top: 5px;
+  position: relative;
+  top: 5px;
 }
 
+/*Footer*/
+.policy__hr {
+  background-color: rgb(207, 207, 207);
+  height: 2px;
+}
